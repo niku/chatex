@@ -1,7 +1,8 @@
 {
   "private": true,
   "devDependencies": {
-    "typescript": "^1.8.9"
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
   },
   "dependencies": {
     "requirejs": "^2.2.0"
