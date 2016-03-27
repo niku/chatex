@@ -11,6 +11,11 @@ defmodule Chatex.Endpoint do
     at: "/", from: :chatex, gzip: false,
     only: ~w(css fonts images js favicon.ico robots.txt)
 
+  # Load JavaScript library from "node_modules" directory.
+  plug Plug.Static,
+    at: "/js/vendor", from: "node_modules", gzip: false,
+    only: ~w()
+
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
   if code_reloading? do
