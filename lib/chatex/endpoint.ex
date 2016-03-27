@@ -14,7 +14,7 @@ defmodule Chatex.Endpoint do
   # Load JavaScript library from "node_modules" directory.
   plug Plug.Static,
     at: "/js/vendor", from: "node_modules", gzip: false,
-    only: ~w()
+    only: ~w(requirejs)
 
   # Load phoenix_html library from "phoenix_html" dependency
   plug Plug.Static,

@@ -1,9 +1,18 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "amd",
         "target": "es5",
-        "noImplicitAny": false,
-        "sourceMap": false
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "outFile": "priv/static/js/app.js",
+        "newLine": "LF",
+        "declaration": false,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "listFiles": true,
+        "noEmitOnError": true,
+        "noImplicitReturns" : true,
+        "noFallthroughCasesInSwitch" : true
     },
     "exclude": [
         "node_modules"

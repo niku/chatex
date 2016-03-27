@@ -2,5 +2,8 @@
   "private": true,
   "devDependencies": {
     "typescript": "^1.8.9"
+  },
+  "dependencies": {
+    "requirejs": "^2.2.0"
   }
 }

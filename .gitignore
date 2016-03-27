@@ -17,3 +17,6 @@ erl_crash.dump
 
 # Node modules
 /node_modules
+
+# Generate /priv/static/js/app.js from /web/static/js/app.ts
+/priv/static/js/app.js
