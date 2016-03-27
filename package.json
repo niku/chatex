@@ -5,6 +5,7 @@
     "typings": "^0.7.9"
   },
   "dependencies": {
-    "requirejs": "^2.2.0"
+    "requirejs": "^2.2.0",
+    "mithril": "^0.2.3"
   }
 }

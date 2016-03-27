@@ -32,6 +32,7 @@
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/phoenix.js") %>"></script>
     <script src="<%= js_vendor_static_path(@conn, "/phoenix_html.js") %>"></script>
+    <script src="<%= js_vendor_static_path(@conn, "/mithril/mithril.min.js") %>"></script>
     <!-- We need load javascript libraty via using "script" tag before loading require.js -->
     <script src="<%= js_vendor_static_path(@conn, "/requirejs/require.js") %>"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

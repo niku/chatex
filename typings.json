@@ -1,4 +1,7 @@
 {
   "version": false,
-  "dependencies": {}
+  "dependencies": {},
+  "ambientDependencies": {
+    "mithril": "github:lhorie/mithril.js/mithril.d.ts#v0.2.3"
+  }
 }
