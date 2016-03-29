@@ -1,0 +1,17 @@
+.chatex-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.chatex-container h1{
+    text-align: center;
+}
+
+.chatex-input {
+    display: flex;
+    justify-content: center;
+}
+
+.chatex-tasks {
+    width: 100%;
+}
