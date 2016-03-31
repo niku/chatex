@@ -4,4 +4,8 @@ defmodule Chatex.LayoutView do
   def js_vendor_static_path(%Plug.Conn{private: private} = conn, path) do
     private.phoenix_endpoint.static_path("/js/vendor" <> path)
   end
+
+  def css_vendor_static_path(%Plug.Conn{private: private} = conn, path) do
+    private.phoenix_endpoint.static_path("/css/vendor" <> path)
+  end
 end
