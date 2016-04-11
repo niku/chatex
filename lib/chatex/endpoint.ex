@@ -14,7 +14,7 @@ defmodule Chatex.Endpoint do
   # Load JavaScript library from "node_modules" directory.
   plug Plug.Static,
     at: "/js/vendor", from: "node_modules", gzip: false,
-    only: ~w(requirejs mithril)
+    only: ~w(requirejs mithril material-design-lite)
 
   # Load phoenix_html library from "phoenix_html" dependency
   plug Plug.Static,
@@ -24,7 +24,7 @@ defmodule Chatex.Endpoint do
   # Load CSS from "node_modules" directory
   plug Plug.Static,
     at: "/css/vendor", from: "node_modules", gzip: false,
-    only: ~w()
+    only: ~w(material-design-lite)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
